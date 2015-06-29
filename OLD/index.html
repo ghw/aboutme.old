@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>关于我 &middot; 葛豪武的个人主页！</title>
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/fullPage.css">
+		<script src="https://dn-glibs.qbox.me/jquery-2.1.4/jquery.min.js"></script>
+		<script src="js/jquery.easings.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script src="/js/baidu-analytics.js"></script>
+	</head>
+	<body>
+		<div id="fullpage">
+			<div class="main section">
+				<h2><img src="img/3.jpg"></h2>
+				<p class="psTitle cen">Haowu Ge</p>
+				<p class="motto animated rubberBand">天行健，君子以自强不息</p>
+				<p class="bTit">哈喽，我是葛豪武，一名会计，来自中国·温州，目前居住在杭州。<br>
+				Welcome to Ge Haowu's Personal Homepage!</p>
+				<!--<p class="nav"><a href="javascript:;">经历</a><a href="javascript:;">项目</a><a href="javascript:;">关于</a></p>-->
+				<i class="icon animated flash infinite"></i>
+			</div>
+			<div class="section">
+				<iframe style="width:100%;height:100%" src="tmp/index.html"></iframe>
+			</div>
+		</div>
+
+		<script>
+			$(document).ready(function() {
+    			$('#fullpage').fullpage({
+    				loopBottom : true,
+    				navigation : true,
+    				keyboardScrolling : false
+//  				afterLoad:function(a,i){
+//  					if(i==4){
+//  						$('#if').get(0).focus();
+//  					}
+//  				}
+    			});
+			});
+		</script>
+	</body>
+</html>
